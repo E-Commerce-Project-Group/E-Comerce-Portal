@@ -7,5 +7,6 @@ public class AppController {
 	
 	private int id;
 	private String name;
+	private int salary;
 
 }

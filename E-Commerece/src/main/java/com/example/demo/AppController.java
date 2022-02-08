@@ -1,5 +1,12 @@
 package com.example.demo;
 
-public class AppController {
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
 
+@RestController
+public class AppController {
+	@GetMapping("getHome")
+	public String getHome() {
+		return "Home";
+	}
 }

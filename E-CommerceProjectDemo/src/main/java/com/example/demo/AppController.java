@@ -8,4 +8,5 @@ public class AppController {
 
 	private String name;
 	private int id;
+	private int salary;
 }
